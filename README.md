@@ -8,7 +8,7 @@ Things to be edited (sending/receiving email, etc) can be found by searching for
 
 The program can be run with `python3 auto.py`
 
-Remember to `pip3 install` selenium and bs4
+Remember to `pip3 install` selenium and bs4.
 
 You can set an anacron job to run this every once in a while if you wish.
 
