@@ -18,10 +18,15 @@ RECIEVER="" #CHANGE HERE
 
 #driver settings
 #firefox
+"""
 binary = FirefoxBinary('/usr/bin/firefox-developer-edition')
 x = webdriver.FirefoxOptions()
 x.add_argument('--headless')
 driver = webdriver.Firefox(options=x,firefox_binary=binary)
+"""
+x = webdriver.FirefoxOptions()
+x.add_argument('--headless')
+driver = webdriver.Firefox(options=x)
 
 #Chrome - download and place chromedriver in path
 #x = webdriver.ChromeOptions()
