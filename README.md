@@ -10,7 +10,7 @@ The program can be run with `python3 auto.py`
 
 Remember to `pip3 install selenium` and `pip3 install bs4`.
 
-If using FireFox, get Mozilla geckodriver from here: https://github.com/mozilla/geckodriver/releases
+If using FireFox, get Mozilla geckodriver from here: https://github.com/mozilla/geckodriver/releases.  Put the binary into the `PATH`.  I recommend the `/usr/bin` directory.
 
 You can set an anacron job to run this every once in a while if you wish.
 
