@@ -2,9 +2,11 @@
 Automatically grabs a digest of grades from Synergy and emails to some recipient(s)
 
 ## Variables you need to change
-Things to be edited (sending/receiving email, etc) can be found by searching for `#CHANGE HERE` comments.
-
-2 environment variables can be set: `PY_PASS` and `PY_EMAIL_PASS`
+* `USERNAME`: Synergy username, change this in the code
+* `PASSWORD`: This is linked to the __system environment variable `PY_PASS`__, which is your Synergy password.  You will need to set this environment variable.
+* `EMAIL_PASS`: This is linked to the __system environment variable `PY_EMAIL_PASS`__, which is the password to the email account you're having this program send from.  You will need to set this environment variable.
+* `SENDER`: The email address that this program is using to send the emails.
+* `RECEIVER`: The email address you want this program to send reports to.
 
 ## Running the program
 The program can be run with `python3 auto.py`.
