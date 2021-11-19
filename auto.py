@@ -10,11 +10,13 @@ import time
 from datetime import date
 
 #GLOBALS because this is a util script not "good" code
-USERNAME="" #CHANGE HERE
-PASSWORD=os.environ['PY_PASS'] #add your password as an environment var because sEcUrItY
-EMAIL_PASS=os.environ['PY_EMAIL_PASS']
-SENDER="" #CHANGE HERE
-RECIEVER="" #CHANGE HERE
+USERNAME="" #Synergy Username
+#add your password as an environment var because sEcUrItY
+PASSWORD=os.environ['PY_PASS'] #Synergy Password
+EMAIL_PASS=os.environ['PY_EMAIL_PASS'] #Email account password (for the account with SENDER address)
+SENDER="" #Email address you're sending from
+
+RECIEVER="" #Email address you're sending to
 
 #driver settings
 #firefox
